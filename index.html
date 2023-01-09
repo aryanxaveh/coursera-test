@@ -1,137 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>module2-solution</title>
+
+<title>Module3-Solution</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
-<style>
-  * {
-    box-sizing: border-box;
-  }
 
-  h1 {
-    margin: 10px;
-    text-align: center;
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 175%;
-    color:red;
-  }
-  section {
-    position: relative;
-    padding: 15px;
-    width: 100%;
-  }
-  
-  div {
-    position: relative;
-    background-color: #26b783;
-    border: 1px solid black;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-  }
-  .p1 {
-    float: right;
-    width: 150px;
-    padding: 5px;
-    margin: 0px;
-    border: 3px solid black;
-    text-align: center;
-    font-size: 125%;
-    font-weight: bold;
-    background-color: #bc8fff;
-    
-  }
-  .p2 {
-    float: right;
-    color: black;
-    width: 200px;
-    padding: 5px;
-    margin: 0px;
-    border: 3px solid black;
-    text-align: center;
-    font-size: 125%;
-    font-weight: bold;
-    background-color: #b97dad;
-    
-  }
-  .p3 {
-    color: black;
-    float: right;
-    width: 150px;
-    padding: 5px;
-    margin: 0px;
-    border: 3px solid black;
-    text-align: center;
-    font-size: 125%;
-    font-weight: bold;
-    background-color: #4ae8dd;
-    
-  }
-  .content {
-    padding: 10px;
-    border: none;
-    background-color: #26b783;
-    font-family: Helvetica;
-    font-size: 125%;
-    color: black;
-    margin: 0px;
-    height: 115px;
-    overflow: auto;
-    clear: right;
-  }
-  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
 
-  @media (min-width: 992px){
-    .column-lg-4 {
-      float: left;
-      width: 33.33%;
-    }
-  }
 
-  @media (min-width: 768px) and (max-width: 991px){
-    .colmn-md-6 {
-      float: left;
-      width: 50%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .colmn-md-12 {
-      float: left;
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-  @media (max-width: 767px){
-    .colmn-sm-12 {
-      float: left;
-      width: 100%;
-    }
-  }
-</style>
-<body >
-<h1>My 3 Favorite Quotes </h1>
-  <section class="column-lg-4 colmn-md-6 colmn-sm-12">
-    <div>
-      <p class="p1">H.G. Wells</p>
-      <p class="content">
-       "Very simple was my explanation, and plausible enough - as many wrong theories are!"
-      </p>
+
+<body>
+
+
+<nav class="navbar" id="top">
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">Food, LLC</a>
     </div>
-  </section>
-  <section class="column-lg-4 colmn-md-6 colmn-sm-12">
-    <div>
-      <p class="p2">John F. Kennedy</p>
-      <p class="content">"The time to repair the roof is when the sun is shining."</p>
+
+    <div class="collapse" id="myNavbar">
+      <ul class="nav navbar-nav visible-xs">
+        <li><a class="menu-item" href="#">Chicken</a></li>
+        <li><a class="menu-item" href="#">Beef</a></li> 
+        <li><a class="menu-item" href="#">Sushi</a></li> 
+      </ul>
     </div>
-  </section>
-  <section class="column-lg-4 colmn-md-12 colmn-sm-12">
-  <div>
-    <p class="p3">Carl Jung</p>
-      <p class="content">"That which we need the most will be found where we least want to look."</p>
+
   </div>
+</nav>
+
+<h1 class="main-title">Our Menu</h1>
+
+
+
+<div class="row">
+
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="content-box">
+      <p class="item-name">Chicken</p>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#top">(Back to Top)</a></p>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="content-box">
+      <p class="item-name">Beef</p>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#top">(Back to Top)</a></p>
+    </div>
+  </div>
+
+
+  <div class="col-lg-4 col-md-12 col-sm-12">
+    <div class="content-box">
+      <p class="item-name">Sushi</p>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#top">(Back to Top)</a></p>
+    </div>
+  </div>
+
+</div>
+
+
 </body>
 </html>

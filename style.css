@@ -1,137 +1,96 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>module2-solution</title>
-</head>
-<style>
-  * {
-    box-sizing: border-box;
-  }
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
 
-  h1 {
-    margin: 10px;
-    text-align: center;
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 175%;
-    color:red;
-  }
-  section {
-    position: relative;
-    padding: 15px;
-    width: 100%;
-  }
-  
-  div {
-    position: relative;
-    background-color: #26b783;
-    border: 1px solid black;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-  }
-  .p1 {
-    float: right;
-    width: 150px;
-    padding: 5px;
-    margin: 0px;
-    border: 3px solid black;
-    text-align: center;
-    font-size: 125%;
-    font-weight: bold;
-    background-color: #bc8fff;
-    
-  }
-  .p2 {
-    float: right;
-    color: black;
-    width: 200px;
-    padding: 5px;
-    margin: 0px;
-    border: 3px solid black;
-    text-align: center;
-    font-size: 125%;
-    font-weight: bold;
-    background-color: #b97dad;
-    
-  }
-  .p3 {
-    color: black;
-    float: right;
-    width: 150px;
-    padding: 5px;
-    margin: 0px;
-    border: 3px solid black;
-    text-align: center;
-    font-size: 125%;
-    font-weight: bold;
-    background-color: #4ae8dd;
-    
-  }
-  .content {
-    padding: 10px;
-    border: none;
-    background-color: #26b783;
-    font-family: Helvetica;
-    font-size: 125%;
-    color: black;
-    margin: 0px;
-    height: 115px;
-    overflow: auto;
-    clear: right;
-  }
-  
+.navbar{
+	border-radius: 0px;
+	background-color: #00008B;
+}
 
-  @media (min-width: 992px){
-    .column-lg-4 {
-      float: left;
-      width: 33.33%;
-    }
-  }
+.navbar-brand{
+  font-size: 35px;
+  color: white;
+  padding-left: 25px;
+}
 
-  @media (min-width: 768px) and (max-width: 991px){
-    .colmn-md-6 {
-      float: left;
-      width: 50%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .colmn-md-12 {
-      float: left;
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-  @media (max-width: 767px){
-    .colmn-sm-12 {
-      float: left;
-      width: 100%;
-    }
-  }
-</style>
-<body >
-<h1>My 3 Favorite Quotes </h1>
-  <section class="column-lg-4 colmn-md-6 colmn-sm-12">
-    <div>
-      <p class="p1">H.G. Wells</p>
-      <p class="content">
-       "Very simple was my explanation, and plausible enough - as many wrong theories are!"
-      </p>
-    </div>
-  </section>
-  <section class="column-lg-4 colmn-md-6 colmn-sm-12">
-    <div>
-      <p class="p2">John F. Kennedy</p>
-      <p class="content">"The time to repair the roof is when the sun is shining."</p>
-    </div>
-  </section>
-  <section class="column-lg-4 colmn-md-12 colmn-sm-12">
-  <div>
-    <p class="p3">Carl Jung</p>
-      <p class="content">"That which we need the most will be found where we least want to look."</p>
-  </div>
-</body>
-</html>
+.navbar-brand:hover{
+	color: white;
+}
+
+.nav{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggle{
+	border: 2px solid white;
+	margin-right: 25px;
+}
+
+.icon-bar{
+	background-color: white;
+}
+
+
+.main-title{
+  margin-bottom: 15px;
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+}
+
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: #99dde7;
+	border-bottom: 1px solid black;
+	color: black;
+	display: block;
+}
+
+.menu-item:hover{
+	background-color: white;
+	color: #00008B;
+}
+
+
+
+.row{
+	margin: 20px;
+}
+
+.content-box{
+	margin: 20px;
+	width: auto;
+	height: auto;
+	color: black;
+	background-color: #ADD8E6;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 20px;
+}
+
+.item-name{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#top{
+
+}
